@@ -42,7 +42,7 @@ ul{
 }
 
 .container{
-    width: 1200px;
+    width: 1230px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 15px;
@@ -111,7 +111,7 @@ ul{
 
 .contacts{
     display: flex;
-    margin-left: 344px;
+    margin-left: 318px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -119,20 +119,31 @@ ul{
 }
 
 .contacts-mail {
-    display: inline-block;
-    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-right: 30px;
     text-decoration: none;
     color:var(--text-color);
 }
 
 .contacts-phone{
-    display: inline-block;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     text-decoration: none;
     color:var(--text-color);
 }
 
 .contacts-mail:hover, .contacts-mail:focus, .contacts-phone:hover, .contacts-phone:focus{
     color: var(--accent-color);
+}
+
+.contacts-mail:hover .contact-icon, .contacts-mail:focus .contact-icon, .contacts-phone:hover .contact-icon,
+.contacts-phone:focus .contact-icon{
+    fill: var(--accent-color);
 }
 
 /* Hero styles */
@@ -315,22 +326,26 @@ ul{
     justify-content: center;
     align-items: center;
     margin-top: 16px;
+    gap: 10px;
 
 }
 
-.social-list-item{
+.social-list-item {
+    display: flex;
     width: 44px;
     height: 44px;
-    display: flex;
     justify-content: center;
-    align-items: center;
+    border-radius: 50%;
+    
+    
+   
 }
 
-.social-link {
-    display: block;
-    width: 44px;
-    height: 44px;
+.social-list-item .social-link {
     display: flex;
+    width: 100%;
+    height: 100%;
+    
     justify-content: center;
     align-items: center;
     border-radius: 50%;
@@ -338,6 +353,14 @@ ul{
 
 .card-social-icon{
     fill:#AFB1B8;
+}
+.social-link:hover .card-social-icon{
+    
+    fill: #FFFFFF;
+}
+
+.social-link:hover{
+    background-color: #2196F3;
 }
 
 /* Partners styles */
@@ -356,22 +379,25 @@ ul{
     letter-spacing: 0.03em;
 }
 .partners-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
     margin-right: auto;
     margin-left: auto;
     list-style-type: none;
-    display: flex;
-    justify-content:center;
-    gap:30px;
+    
 
 }
 
 .clent{
-    display: flex;
+    width: 170px;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
-.clent-link{
+.client .clent-link{
+    display: flex;
     width: 170px;
 
 }
