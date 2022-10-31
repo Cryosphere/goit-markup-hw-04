@@ -202,6 +202,16 @@ ul{
     margin-right: 30px;
 }
 
+.features-icon{
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F5F4FA;
+    margin-bottom: 30px;
+}
+
 .features-header{
     margin-bottom: 10px;
     font-size: 14px;
@@ -294,6 +304,80 @@ ul{
 
 }
 
+.command-item-container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.social-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+
+}
+
+.social-list-item{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link {
+    display: block;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.card-social-icon{
+    fill:#AFB1B8;
+}
+
+/* Partners styles */
+
+.partners{
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.partners-header{
+    padding-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.partners-list{
+    margin-right: auto;
+    margin-left: auto;
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    gap:30px;
+
+}
+
+.clent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clent-link{
+    width: 170px;
+
+}
+.client-logo{
+    fill:#757575;
+}
 
 /* Gallery styles */
 
