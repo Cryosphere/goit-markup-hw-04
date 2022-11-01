@@ -154,6 +154,9 @@ ul{
     color: var(--secondary-text-color);
     padding-bottom: 200px;
     padding-top: 200px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bgimage.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 
@@ -316,9 +319,9 @@ ul{
 }
 
 .command-item-container{
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 
 .social-list{
@@ -368,7 +371,6 @@ ul{
 .partners{
     padding-top: 94px;
     padding-bottom: 94px;
-
 }
 
 .partners-header{
@@ -378,31 +380,37 @@ ul{
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 .partners-list{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 30px;
     margin-right: auto;
     margin-left: auto;
     list-style-type: none;
-    
-
 }
 
-.clent{
-    width: 170px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
 
-.client .clent-link{
+.client-link{
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 170px;
-
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
 }
+
+.client-link:hover, .client-link:focus{
+    border-color: var(--accent-color);
+}
+
+.client-link:hover .client-logo, .client-link:focus .client-logo{
+    fill: var(--accent-color);
+}
+
 .client-logo{
-    fill:#757575;
+    fill:var(--text-color);
 }
 
 /* Gallery styles */
@@ -468,7 +476,6 @@ ul{
         
         padding: 0;
 }    
-/* .project-item:hover{box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}    */
 
 .project-item p{
     
@@ -503,6 +510,21 @@ ul{
         padding-top: 60px;
         padding-bottom: 60px;
 }
+
+.footer-main{
+    margin-right: 70px;
+}
+
+.container-footer{
+    display: flex;
+    align-items: baseline;
+    width: 1230px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 15px;
+}
+
+
 .address{
     /* margin-bottom: 60px; */
        
@@ -544,3 +566,23 @@ ul{
         color:#ffffff ;
 }
 
+.footer-social{
+    margin-bottom: 20px;
+    font-family:'Roboto';
+    font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
+
+.footer-social-list .social-link{
+    background: rgba(255, 255, 255, 0.1)
+}
+
+.social-link:hover{
+    background-color: var(--accent-color);
+}
