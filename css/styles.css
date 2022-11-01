@@ -274,7 +274,7 @@ ul{
 
 .command{
     background-color: #F5F4FA;
-    height: 648px;
+    /* height: 648px; */
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -335,7 +335,6 @@ ul{
     align-items: center;
     margin-top: 16px;
     gap: 10px;
-
 }
 
 .social-list-item {
@@ -344,9 +343,6 @@ ul{
     height: 44px;
     justify-content: center;
     border-radius: 50%;
-    
-    
-   
 }
 
 .social-list-item .social-link {
