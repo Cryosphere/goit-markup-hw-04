@@ -42,7 +42,7 @@ ul{
 }
 
 .container{
-    width: 1230px;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 15px;
@@ -137,6 +137,9 @@ ul{
     color:var(--text-color);
 }
 
+.contact-icon{
+    fill:currentColor;
+}
 .contacts-mail:hover, .contacts-mail:focus, .contacts-phone:hover, .contacts-phone:focus{
     color: var(--accent-color);
 }
@@ -214,6 +217,7 @@ ul{
 
 .features-list-item:not(:last-child){
     margin-right: 30px;
+    
 }
 
 .features-icon{
@@ -224,6 +228,7 @@ ul{
     align-items: center;
     background-color:#F5F4FA;
     margin-bottom: 30px;
+    border-radius: 4px;
 }
 
 .features-header{
@@ -282,7 +287,7 @@ ul{
     justify-content: space-between;
 }
 .command-header{
-        padding-bottom: 50px;
+        margin-bottom: 50px;
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
@@ -357,12 +362,12 @@ ul{
 .card-social-icon{
     fill:#AFB1B8;
 }
-.social-link:hover .card-social-icon{
+.social-link:hover .card-social-icon, .social-link:focus .card-social-icon{
     
     fill: #FFFFFF;
 }
 
-.social-link:hover{
+.social-link:hover, .social-link:focus{
     background-color: #2196F3;
 }
 
@@ -374,7 +379,7 @@ ul{
 }
 
 .partners-header{
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -410,7 +415,7 @@ ul{
 }
 
 .client-logo{
-    fill:var(--text-color);
+    fill:#AFB1B8;
 }
 
 /* Gallery styles */
@@ -518,7 +523,7 @@ ul{
 .container-footer{
     display: flex;
     align-items: baseline;
-    width: 1230px;
+    width: 1200px;
         margin-right: auto;
         margin-left: auto;
         padding: 0 15px;
