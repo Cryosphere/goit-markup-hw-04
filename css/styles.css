@@ -274,7 +274,6 @@ ul{
 
 .command{
     background-color: #F5F4FA;
-    /* height: 648px; */
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -579,11 +578,14 @@ ul{
     
         color: #FFFFFF;
 }
+.card-social-icon{
+    fill:#FFFFFF;
+}
 
 .footer-social-list .social-link{
     background: rgba(255, 255, 255, 0.1)
 }
 
-.social-link:hover{
+.social-link:hover, .social-link:hover{
     background-color: var(--accent-color);
 }
